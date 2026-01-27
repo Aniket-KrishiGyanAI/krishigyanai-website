@@ -197,7 +197,7 @@ const leaders = [
     name: "Ram Gopal Kashyap",
     designation: "Co-Founder & Chief Technology Officer (CTO)",
     experience:
-      "MTech in Agricultural System Management IIT Kharagpur & 3 years of experience in Software Development.",
+      "M.Tech (Agricultural system & Management) IIT Kharagpur & 3 years of experience in Software Development.",
     image: RamKashyapImage,
   },
 ];
