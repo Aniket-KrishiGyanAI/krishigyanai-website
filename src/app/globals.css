@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* :root {
+  --background: #ffffff;
+  --foreground: #171717;
+} */
+
+@theme inline {
+  --color-primary: #4caf50; /* Fresh Green */
+  --color-secondary: #8bc34a; /* Light Leaf Green */
+  --color-accent: #ffc107; /* Warm Harvest Yellow */
+  --color-background: #ffffff; /* White */
+  --color-text: #2e3d23;
+}
+
+/* @media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+} */
