@@ -187,19 +187,19 @@ const leaders = [
   },
   {
     id: 2,
-    name: "Ashutosh Joshi",
-    designation: "Co-Founder & Chief Business Officer (CBO)",
-    experience: "MSC Agronomy. Experience in Sales & Agribusiness Management.",
-    image: AshutoshJoshiImage,
-  },
-  {
-    id: 3,
     name: "Ram Gopal Kashyap",
     designation: "Co-Founder & Chief Technology Officer (CTO)",
     experience:
       "M.Tech (Agricultural system & Management) IIT Kharagpur & 3 years of experience in Software Development.",
     image: RamKashyapImage,
   },
+  //   {
+  //   id: 3,
+  //   name: "Ashutosh Joshi",
+  //   designation: "Co-Founder & Chief Business Officer (CBO)",
+  //   experience: "MSC Agronomy. Experience in Sales & Agribusiness Management.",
+  //   image: AshutoshJoshiImage,
+  // },
 ];
 
 function About() {
@@ -268,7 +268,7 @@ function About() {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 text-center">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-8 text-center">
             {leaders.map((leader) => (
               <div key={leader.id} className="flex flex-col items-center">
                 <div className="w-40 h-40 mb-4">
